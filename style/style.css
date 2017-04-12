@@ -169,7 +169,66 @@ article figure{
   margin-right: 3px;
 }
 
+/*   @@@@@@@@@@@@ Section bottom  @@@@@@@@@@@@@@@
+                @@@@@@@@@@@@@@@@@*/
+/*Nav*/
+.sectionbottom{
+  margin-left: 15px;
+}
+.sectionbottom nav{
+  display: none;
+}
 
+.langue{
+  font-size: 20px;
+  margin: auto;
+  margin: 25px 0 0 5px;
+  padding-left: 20px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  height: 50px;
+  width: 45%;
+  display: inline-block;
+}
+.langue{
+}
+
+.sectionbottom hr:first-child{
+  margin: 50PX 0 0 0;
+  width: 100%;
+}
+.sectionbottom hr:last-child{
+  margin: auto;
+  margin-top: 25px;
+  width: 85%;
+}
+
+/*   @@@@@@@@@@@@ Footer  @@@@@@@@@@@@@@@
+                @@@@@@@@@*/
 .logofooter{
+  position: absolute;
   width: 25px;
+  height: 25px;
+  margin:5px 0 0 8px
+}
+
+footer nav{
+  width: 20;
+  margin-bottom: 40px;
+}
+
+footer li:first-child{
+  display: block;
+}
+footer a, footer li{
+  color: grey;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  display: inline-block;
+}
+
+footer i {
+  font-size: 18px;
+  margin-right: 10px;
 }
