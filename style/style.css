@@ -121,8 +121,15 @@ hr{
 
 .articles{
   margin-top: 50px;
+  margin-left: 20px;
   white-space: nowrap;
   overflow-x: auto;
+}
+
+.articles a{
+  display: inline-block;
+  width: 40%;
+  margin-left: 10PX;
 }
 
 .articles h2{
@@ -135,9 +142,7 @@ hr{
 .articles article{
   margin-top: 45px;
   padding-bottom: 10PX;
-  width: 40%;
-  display: inline-block;
-  margin-left: 20PX;
+  width: 100%;
 }
 
 article figure{
