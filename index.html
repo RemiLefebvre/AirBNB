@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300" rel="stylesheet">
   </head>
   <body>
+
+<!-- @@@@@@@   Header @@@@@@@@@@
+            @@@@@@@@@@ -->
     <header>
-      <figure>
-        <img src="image/logo.png" alt="logo">
-      </figure>
+      <!-- logo -->
+      <div>
+        <figure  class="logoheader">
+          <img src="image/logo.png" alt="logo">
+        </figure>
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </div>
+
+      <!-- titre -->
       <h1><span>Où souhaitez-vous aller ?</span> Votre prochain voyage commence sur Airbnb.</h1>
+      <!-- nav -->
       <nav>
         <ul>
           <li><a href="#">Devenez hôte</a></li>
@@ -28,22 +39,19 @@
 <!-- @@@@@@@   Formulaire où quand qui +
  nav Recommandé logement etc..   @@@@@@@ -->
     <section>
-      <!-- Où -->
-      <div class="">
+      <div class="formulairetop">
+        <span class="formulairetopphone"><i class="fa fa-search" aria-hidden="true"></i>Partout.Date indiférente . 1 voyageur</span>
+        <!-- Où -->
         <form class="" action="index.html" method="post">
           <label for="">Où</label>
           <input type="text" name="" value="">
         </form>
-      </div>
-      <!-- Quand -->
-      <div class="">
+        <!-- Quand -->
         <form class="" action="index.html" method="post">
           <label for="">Quand</label>
           <input type="text" name="" value="">
         </form>
-      </div>
-      <!-- Voyageurs -->
-      <div class="">
+        <!-- Voyageurs -->
         <form class="" action="index.html" method="post">
           <label for="">Voyageurs</label>
           <select class="" name="">
@@ -204,7 +212,7 @@
 <!--@@@@@@@@@ Footer @@@@@@@@@@
             @@@@@@@@@-->
     <footer>
-      <img src="image/logo.png" alt="logo">
+      <img src="image/logo.png" alt="logo" class="logofooter">
       <p></p>
 
       <nav>
