@@ -124,14 +124,16 @@ hr{
   white-space: nowrap;
   overflow-x: auto;
 }
+
 .articles h2{
   margin-left: 20px;
   font-size: 17px;
   font-weight: bold;
   color: #4C4C4C;
+  position: absolute;
 }
 .articles article{
-  margin-top: 30px;
+  margin-top: 45px;
   padding-bottom: 10PX;
   width: 40%;
   display: inline-block;
