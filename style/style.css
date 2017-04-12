@@ -126,12 +126,13 @@ hr{
 }
 .articles h2{
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
   color: #4C4C4C;
 }
 .articles article{
   margin-top: 30px;
+  padding-bottom: 10PX;
   width: 40%;
   display: inline-block;
   margin-left: 20PX;
@@ -141,8 +142,9 @@ article figure{
   width: 100%;
 }
 
+
 .articles p{
-  color: #4C4C4C;
+  color: #707070;
   font-size: 14px;
   white-space: normal;
 }
@@ -154,6 +156,12 @@ article figure{
 .articles p strong:last-child{
   font-size: 12px;
 }
+
+.articles p i{
+  color: #38a593;
+  margin-right: 3px;
+}
+
 
 .logofooter{
   width: 25px;
