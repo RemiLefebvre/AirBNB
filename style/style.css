@@ -103,6 +103,7 @@ header nav{
 .navformulairetop li:first-child a{
   color:#25898e;
 }
+/*icon arrox*/
 .fa-2x{
   font-size: 30px;
   position: absolute;
@@ -110,6 +111,7 @@ header nav{
   top: 305px;
   color: grey;
 }
+/*hr (séparator)*/
 hr{
   border: 1px solid #e0e0e0;
   width: 92%;
@@ -132,6 +134,7 @@ hr{
   margin-left: 10PX;
 }
 
+/*titre de la section ".articles" */
 .articles h2{
   margin-left: 20px;
   font-size: 17px;
@@ -145,11 +148,12 @@ hr{
   width: 100%;
 }
 
+/*img*/
 article figure{
   width: 100%;
 }
 
-
+/*pargraphe*/
 .articles p{
   color: #707070;
   font-size: 14px;
@@ -164,6 +168,7 @@ article figure{
   font-size: 12px;
 }
 
+/*stars*/
 .articles p i{
   color: #38a593;
   margin-right: 3px;
@@ -179,6 +184,7 @@ article figure{
   display: none;
 }
 
+/*Select*/
 .langue{
   font-size: 20px;
   margin: auto;
@@ -193,6 +199,7 @@ article figure{
 .langue{
 }
 
+/* Hr 'separator'*/
 .sectionbottom hr:first-child{
   margin: 50PX 0 0 0;
   width: 100%;
@@ -209,9 +216,10 @@ article figure{
   position: absolute;
   width: 25px;
   height: 25px;
-  margin:5px 0 0 8px
+  margin:5px 0 0 8  px
 }
 
+/*nav*/
 footer nav{
   width: 20;
   margin-bottom: 40px;
