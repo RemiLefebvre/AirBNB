@@ -355,13 +355,6 @@ footer i {
 /*fin tablette*/
 
 
-
-
-
-
-
-
-
 /*      000000
     0000000000000
   0000 DESKTOP 0000----/----------/----------/----
@@ -369,5 +362,97 @@ footer i {
         00000
 */
 @media (min-width: 992px) {
+  /*   @@@@@@@@@@@@ HEADER @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+  h1{
+    margin-left:100px;
+    width: 45%;
+  }
+
+  header nav{
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    right: 20Px;
+  }
+  header nav li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  header nav li a{
+    color:grey;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  header nav li a:hover{
+    text-decoration: underline;
+  }
+  /*   @@@@@@@@@@@@ Section TOP @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+
+  .formulairetoptablette{
+    display: none;
+  }
+
+  /*Englobeur général*/
+  .formulairetop{
+    width: 85%;
+    height: 80px;
+  }
+  /*cases*/
+  .formulairetop form{
+    display: inline-block;
+    padding-top: 50%;
+    padding-left: 4%;
+    height: 100%;
+  }
+  .formulairetop form:nth-child(5),.formulairetop form:nth-child(4){
+    border-left: 1px solid #c4c4c4;
+  }
+
+  /*ou quand voyageurs*/
+  .formulairetop label{
+    font-weight: bold;
+    color: #4C4C4C;
+  }
+  /*input*/
+  .formulairetop input ,.voyageurs{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+  }
+
+  /*Rechercher*/
+  #button{
+    position:absolute;
+    right: 110px;
+    background-color: #ff7272;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+  .articles a{
+    width: 16%;
+  }
+  .articles{
+    margin-left: 10%;
+  }
+  .articles figure{
+    width:
+  }
+
+
+
 
 }
