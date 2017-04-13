@@ -56,6 +56,7 @@ header nav{
 
 .formulairetop{
   border: 1px solid #c4c4c4;
+  border-radius: 5px;
   width: 85%;
   height: 40px;
   margin: auto;
@@ -68,18 +69,22 @@ header nav{
 }
 
 /*Phone*/
+  /*formulaire tablette*/
+.formulairetoptablette{
+  display: none;
+}
   /*formulaire pc*/
 .formulairetop form{
   display: none;
 }
   /*formulaire phone*/
-.formulairetop span{
+.formulairetopphone{
   display: block;
   font-size: 14px;
   font-weight: bold;
   color: #4C4C4C;
 }
-.fa-search{
+.fa-search ,.fa-calendar-o,.fa-user-o{
   color: grey;
 }
 
@@ -104,7 +109,7 @@ header nav{
 .navformulairetop li:first-child a{
   color:#25898e;
 }
-/*icon arrox*/
+/*icon arrow*/
 .fa-2x{
   font-size: 30px;
   position: absolute;
@@ -257,10 +262,37 @@ footer i {
     line-height: 56px;
   }
 
-  /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
+  /*   @@@@@@@@@@@@ Section TOP @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
-  .articles a{
-    width: 22%;
+    /*Hide phone size*/
+  .formulairetopphone{
+    display: none;
+  }
+
+  /* Englobeur général*/
+  .formulairetop{
+    padding-left: 0;
+    height: 50px;
+    margin-top: 70px;
+    width: 90%;
+    overflow-y: hidden;
+  }
+
+  /*open tablette size*/
+  .formulairetoptablette{
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*Cases*/
+  .formulairetoptablette span {
+    border-left: 1px solid #c4c4c4;
+    height: 100%;
+    padding-top: 50%;
+    margin-left: 10%;
+    padding-left: 10%;
   }
 
   /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
