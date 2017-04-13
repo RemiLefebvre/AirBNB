@@ -179,6 +179,9 @@ article figure{
   color: #38a593;
   margin-right: 3px;
 }
+.articles div{
+  display: none;
+}
 
 /*   @@@@@@@@@@@@ Section bottom  @@@@@@@@@@@@@@@
                 @@@@@@@@@@@@@@@@@*/
@@ -288,13 +291,14 @@ footer i {
 
   /*Cases*/
   .formulairetoptablette span {
-    border-left: 1px solid #c4c4c4;
     height: 100%;
     padding-top: 50%;
     margin-left: 10%;
     padding-left: 10%;
   }
-
+  .formulairetoptablette span:nth-child(2),.formulairetop span:nth-child(3){
+    border-left: 1px solid #c4c4c4;
+  }
   /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
   .articles a{
@@ -444,6 +448,9 @@ footer i {
 
   .fa-2x{
     color: white;
+  }
+  .articles div{
+    display: inline-block;
   }
   /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
