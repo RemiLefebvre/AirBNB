@@ -440,19 +440,31 @@ footer i {
     font-size: 17px;
     cursor: pointer;
   }
+
+  .fa-2x{
+    color: white;
+  }
   /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
   .articles a{
-    width: 16%;
+    width: 17%;
   }
   .articles{
-    margin-left: 10%;
-  }
-  .articles figure{
-    width:
+    margin-left: 5%;
   }
 
-
-
-
+  .arrowmat{
+    color: grey;
+    position: absolute;
+    right: 90px;
+  }
+  section:nth-child(3) div{
+    top:780px;
+  }
+  section:nth-child(4) div{
+    top:1230px;
+  }
+  section:nth-child(5) div{
+    top:1730px;
+  }
 }
