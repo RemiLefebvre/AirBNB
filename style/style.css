@@ -1,6 +1,7 @@
 body , html {
   width: 100%;
   margin: 0;
+
 }
 
 *{
@@ -82,12 +83,12 @@ header nav{
   color: grey;
 }
 
-/*NAV*/
+/*NAV (Recommandé logement.etc..)*/
 .navformulairetop ul {
   margin: 70px 0 0 20px;
   padding-left:0;
   overflow-x: auto;
-  width: 100%;
+  width: 90%;
   height: 30px;
   white-space: nowrap;
 }
@@ -136,7 +137,7 @@ hr{
 
 /*titre de la section ".articles" */
 .articles h2{
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 17px;
   font-weight: bold;
   color: #4C4C4C;
@@ -216,13 +217,12 @@ article figure{
   position: absolute;
   width: 25px;
   height: 25px;
-  margin:5px 0 0 8  px
+  margin:5px 0 0 8px;
 }
 
 /*nav*/
 footer nav{
-  width: 20;
-  margin-bottom: 40px;
+  margin: 20px 0 40Px 0;
 }
 
 footer li:first-child{
@@ -243,18 +243,96 @@ footer i {
 
 /*      000000
     0000000000000
-  0000 TABLETTE 000
+  0000 TABLETTE 000-------/-------/----------/-----
     000000000000
         00000
 */
 @media (min-width: 768px) {
-  
+
+  /*   @@@@@@@@@@@@ HEADER @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+  h1{
+    margin-top: 60px;
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+  .articles a{
+    width: 22%;
+  }
+
+  /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+  .articles a{
+    width: 22%;
+  }
+  /*   @@@@@@@@@@@@ section bottom @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+
+  .sectionbottom nav{
+    display: inline-block;
+  }
+  .sectionbottom h3{
+    font-weight: bold;
+    color: black;
+  }
+  .sectionbottom ul{
+    margin-top: 10px;
+    padding-left:0;
+    width: 80%;
+  }
+  .sectionbottom li a{
+    color: grey;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  .sectionbottom div{
+    margin: 0 0 0 7%;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  .sectionbottom nav{
+    font-size: 14px;
+  }
+  .sectionbottom form{
+    margin: 30px 0 0 3%;
+    width: 13%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .langue{
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .sectionbottom hr:last-child{
+    margin-top: 85px;
+  }
+  /*   @@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@
+                  @@@@@@@@@*/
+  footer nav{
+
+  }
+
+
+
 }
+
+/*fin tablette*/
+
+
+
+
+
+
+
 
 
 /*      000000
     0000000000000
-  0000 DESKTOP 0000
+  0000 DESKTOP 0000----/----------/----------/----
     000000000000
         00000
 */
