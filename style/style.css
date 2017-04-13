@@ -344,7 +344,13 @@ footer i {
   }
   /*   @@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
-
+  footer ul{
+    display: flex;
+  }
+  footer nav li:nth-child(1){
+    display: inline-block;
+    margin-right: auto;
+  }
 }
 
 /*fin tablette*/
