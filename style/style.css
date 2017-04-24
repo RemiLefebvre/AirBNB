@@ -361,10 +361,10 @@ footer i {
   /*Revenus*/
   .revenus{
     margin-left: 10px;
-
+    align-items: center;
+    display: flex;
   }
   .revenus div{
-    display: inline-block;
   }
   .revenus div{
     width: 40%;
@@ -549,10 +549,21 @@ footer i {
   section:nth-child(4) div{
     top:1230px;
   }
-  section:nth-child(5) div{
-    top:1730px;
+  section:nth-child(6) div{
+    top:2080px;
   }
 
+  /*Revenus*/
+  .revenus{
+    margin-left: 50px;
+    align-items: center;
+  }
+  .revenus div{
+    width: 40%;
+  }
+  .revenus div:last-child{
+    position: inherit;
+  }
   /*   @@@@@@@@@@@@ section bottom @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
   .sectionbottom nav:nth-child(2),.sectionbottom nav:nth-child(3){
