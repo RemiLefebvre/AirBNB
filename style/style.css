@@ -31,6 +31,7 @@ header div{
 }
 .fa-angle-down{
   color: grey;
+  display: inline-block;
 }
 
 /*H1*/
@@ -389,11 +390,15 @@ footer i {
     color:grey;
     font-weight: bold;
     font-size: 13px;
+    padding-top: 20Px;
   }
 
   header nav li a:hover{
-    text-decoration: underline;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10PX;
   }
+
+
   /*   @@@@@@@@@@@@ Section TOP @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
 
@@ -461,6 +466,7 @@ footer i {
     margin-left: 5%;
   }
 
+  /*Fleche de matthieu*/
   .arrowmat{
     color: grey;
     position: absolute;
