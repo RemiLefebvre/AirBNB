@@ -291,13 +291,20 @@ footer i {
   }
 
   /*Cases*/
-  .formulairetoptablette span {
+  .formulairetoptablette i {
     height: 100%;
-    padding-top: 50%;
+    padding-top: 60%;
     margin-left: 10%;
     padding-left: 10%;
   }
-  .formulairetoptablette span:nth-child(2),.formulairetop span:nth-child(3){
+
+  .formulairetoptablette span{
+    font-weight: bold;
+    font-family: 'Rubik';
+    padding-left: 10px;
+  }
+
+  .formulairetoptablette i:nth-child(2),.formulairetop i:nth-child(3){
     border-left: 1px solid #c4c4c4;
   }
   /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
@@ -431,7 +438,7 @@ footer i {
   .formulairetop input ,.voyageurs{
     background-color: white;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     color: grey;
     font-weight: bold;
   }
