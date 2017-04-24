@@ -109,13 +109,15 @@ header nav{
 }
 .navformulairetop li:first-child a{
   color:#25898e;
+  border-bottom: 2px solid #25898e;
+  padding-bottom: 10PX;
 }
 /*icon arrow*/
 .fa-2x{
   font-size: 30px;
   position: absolute;
   right: 20px;
-  top: 305px;
+  top: 335px;
   color: grey;
 }
 /*hr (séparator)*/
@@ -307,8 +309,16 @@ footer i {
   .formulairetoptablette i:nth-child(2),.formulairetop i:nth-child(3){
     border-left: 1px solid #c4c4c4;
   }
+
+  /*petite fleche*/
+  .fa-2x{
+    color: white;
+  }
   /*   @@@@@@@@@@@@ ARTICLES @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
+  .articles h2{
+    font-size: 25px;
+  }
   .articles a{
     width: 22%;
   }
