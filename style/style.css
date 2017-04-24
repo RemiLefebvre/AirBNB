@@ -268,20 +268,23 @@ article figure{
 
 /*nav*/
 footer nav{
-  margin: 20px 0 40Px 0;
+  margin: 20px 20px 40Px 0;
 }
 
 footer li:first-child{
   display: block;
 }
 footer a, footer li{
+  padding-left: 5px;
   color: grey;
   font-weight: bold;
   font-size: 14px;
   line-height: 22px;
   display: inline-block;
 }
-
+footer a:hover{
+  text-decoration: underline;
+}
 footer i {
   font-size: 18px;
   margin-right: 10px;
