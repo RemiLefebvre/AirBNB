@@ -144,13 +144,17 @@ hr{
 }
 
 /*titre de la section ".articles" */
-.articles h2{
-  margin-left: 10px;
-  font-size: 17px;
+.articles h2 , .revenus h2{
   font-weight: bold;
   color: #4C4C4C;
+}
+
+.articles h2{
+  margin-left: 10px;
+  font-size: 22px;
   position: absolute;
 }
+
 .articles article{
   margin-top: 45px;
   padding-bottom: 10PX;
@@ -186,6 +190,38 @@ article figure{
   display: none;
 }
 
+
+/*Revenus*/
+.revenus{
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.revenus div{
+  display: block;
+}
+.revenus p, .revenus h2 {
+  margin-left: 20px;
+  color: #4C4C4C;
+  width: 90%;
+}
+ .revenus p, .revenus h2, .revenus input, .revenus figure{
+   margin-top: 20px;
+
+ }
+.revenus input{
+  font-weight: bold;
+  color: white;
+  padding-left:10PX;
+  padding-right: 10Px;
+  margin-left: 20px;
+  background-color: #168993;
+  border: none;
+  border-radius: 5px;
+  height: 35Px
+}
+.revenus figure{
+  width: 100%;
+}
 /*   @@@@@@@@@@@@ Section bottom  @@@@@@@@@@@@@@@
                 @@@@@@@@@@@@@@@@@*/
 /*Nav*/
@@ -321,6 +357,11 @@ footer i {
   }
   .articles a{
     width: 22%;
+  }
+
+  /*Revenus*/
+  .revenus div{
+    display: inline-block;
   }
   /*   @@@@@@@@@@@@ section bottom @@@@@@@@@@@@@@@
                   @@@@@@@@@*/
